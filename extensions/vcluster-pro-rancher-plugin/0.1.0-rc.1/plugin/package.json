@@ -1,0 +1,20 @@
+{
+  "name": "vcluster-pro-rancher-plugin",
+  "description": "vCluster Platform plugin for Rancher",
+  "version": "0.1.0-rc.1",
+  "private": true,
+  "rancher": true,
+  "icon": "https://vcluster.com/docs/media/vCluster_horizontal-orange.svg",
+  "engines": {
+    "node": ">=16"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/cli-plugin-typescript": "~5.0.0"
+  },
+  "files": [
+    "**/*"
+  ],
+  "main": "vcluster-pro-rancher-plugin-0.1.0-rc.1.umd.min.js"
+}
